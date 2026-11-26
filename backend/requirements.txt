@@ -6,6 +6,8 @@ click==8.5.1
 fastapi==0.163.0
 h11==0.16.0
 httptools==0.9.0
+# TestClient 依赖，供 tests/e2e_report_workflow.py 走真实 HTTP 路由验证
+httpx==0.29.0
 idna==3.20
 opentelemetry-api==1.45.2
 pydantic==2.14.3
